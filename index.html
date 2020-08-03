@@ -1,21 +1,40 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Landing Page</title>
+<meta name="viewport" content=" width=decive-width, initial-scale=1, shrink-to-fit=no">
+<meta name="Description" content="">
+<meta name="author" content="">
+<title>Landing Page - Start Bootstrap Theme</title>
 <link href="style.css" rel="stylesheet">
+	
 <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<style>
+	#myBtn{
+		display: none;
+		position: fixed;
+		z-index: 99;
+		right: 30px;
+		bottom: 30px;
+		background-color: aliceblue;
+		border: #D81518;
+			
+		}
+	</style>
+		
 </head>
 <body>
 
 <!-- Navigation -->
+	<button onelick="topFunction()" id="myBtn" tile="On Top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
 <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
       <a class="navbar-brand" href="#">NV</a>
@@ -52,7 +71,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" data-aos="fade-up">
           <div class="features-icons-icon d-flex"> 
 			  <i class="fa fa-cloud text-warning m-auto text-primary" aria-hidden="true"></i> </div>
           <h3>Fully Responsive</h3>
@@ -60,7 +79,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" data-aos="fade-down">
           <div class="features-icons-icon d-flex"> 
 			  <i class="fa fa-heart text-warning m-auto text-primary" aria-hidden="true"></i> </div>
           <h3>Bootstrap 4 Ready</h3>
@@ -68,7 +87,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+        <div class="features-icons-item mx-auto mb-0 mb-lg-3" data-aos="fade-left">
           <div class="features-icons-icon d-flex "> 
 			  <i class="fa fa-check text-warning m-auto text-primary " aria-hidden="true"></i> </div>
           <h3>Easy to Use</h3>
@@ -87,9 +106,7 @@
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2>Fully Responsive Design</h2>
         <div class="scroll overflow-auto">
-          <p class="lead mb-0 ">
-			  When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!
-			</p>
+          <p class="lead mb-0 ">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
         </div>
       </div>
     </div>
@@ -179,13 +196,41 @@
       </div>
       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
         <ul class="list-inline mb-0">
-          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i> </a> </i>
-          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i> </a> </i>
-          <li class="list-inline-item"> <a href="#"> <i class="fa fa-instagram fa-2x fa-fw" aria-hidden="true"></i> </a> </i>
+          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i> </a></li>
+          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i> </a></li>
+          <li class="list-inline-item"> <a href="#"> <i class="fa fa-instagram fa-2x fa-fw" aria-hidden="true"></i> </a></li>
         </ul>
       </div>
     </div>
   </div>
 </footer>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	<!-- Bootstrap core JavaScript --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
 </body>
 </html>
