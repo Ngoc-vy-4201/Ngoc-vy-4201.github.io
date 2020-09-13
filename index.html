@@ -1,236 +1,194 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content=" width=decive-width, initial-scale=1, shrink-to-fit=no">
-<meta name="Description" content="">
-<meta name="author" content="">
-<title>Landing Page - Start Bootstrap Theme</title>
-<link href="style.css" rel="stylesheet">
-	
-<!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<style>
-	#myBtn{
-		display: none;
-		position: fixed;
-		z-index: 99;
-		right: 30px;
-		bottom: 30px;
-		background-color: aliceblue;
-		border: #D81518;
-			
-		}
-	</style>
-		
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
 </head>
 <body>
-
-<!-- Navigation -->
-	<button onelick="topFunction()" id="myBtn" tile="On Top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
-<nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">NV</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
-    </div>
-  </nav>
-
-<!-- Masthead -->
-<header class="masthead text-white text-center">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-9 mx-auto">
-        <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>N</span>gọc <span>V</span>y</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#projects" data-after="Projects">products</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-        <form>
-          <div class="form-row">
-            <div class="col-12 col-md-9 mb-2 mb-md-0">
-              <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-            </div>
-            <div class="col-12 col-md-3">
-              <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-            </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+<section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Vy <span></span></h1>
+        <a href= "http://show-it-now.art/31/07/2019/nguyen-thi-ngoc-vy/?fbclid=IwAR0ecJkBJk3lJzCAlYQXy3LxCkjXu9ANoG1p99n96Ub8Lna5lPHIbwMje50"  target="_blank" type="button" class="cta">click!</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">intr<span>o</span>duce</h1>
+        <p>Hello everyone, My name is Vy, I'm 19 years old. I'm studying graphic design in Arena Multimedia.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/under-computer.png"/></div>
+          <h1>Web Design</h1>
+          
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/office.png"/></div>
+          <h1>Graphic Design</h1>
+          
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/camera.png"/></div>
+            <h1>Photo grapher</h1>
+		  </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>products</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-img">
+            <img src="img/9a3e4f7869b696e8cfa79.jpg" alt="img">
           </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</header>
-
-<!-- Icons Grid -->
-<section class="features-icons bg-light text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" data-aos="fade-up">
-          <div class="features-icons-icon d-flex"> 
-			  <i class="fa fa-cloud text-warning m-auto text-primary" aria-hidden="true"></i> </div>
-          <h3>Fully Responsive</h3>
-          <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" data-aos="fade-down">
-          <div class="features-icons-icon d-flex"> 
-			  <i class="fa fa-heart text-warning m-auto text-primary" aria-hidden="true"></i> </div>
-          <h3>Bootstrap 4 Ready</h3>
-          <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="features-icons-item mx-auto mb-0 mb-lg-3" data-aos="fade-left">
-          <div class="features-icons-icon d-flex "> 
-			  <i class="fa fa-check text-warning m-auto text-primary " aria-hidden="true"></i> </div>
-          <h3>Easy to Use</h3>
-          <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Image Showcases -->
-<section class="showcase">
-  <div class="container-fluid p-0">
-    <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(bg-showcase-1.jpg);"></div>
-      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Fully Responsive Design</h2>
-        <div class="scroll overflow-auto">
-          <p class="lead mb-0 ">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-        </div>
-      </div>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-lg-6 text-white showcase-img" style="background-image: url(bg-showcase-2.jpg);"></div>
-      <div class="col-lg-6 my-auto showcase-text">
-        <h2>Updated For Bootstrap 4</h2>
-        <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-      </div>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(bg-showcase-3.jpg);"></div>
-      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-        <h2>Easy to Use &amp; Customize</h2>
-        <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Testimonials -->
-<section class="testimonials text-center bg-light">
-  <div class="container">
-    <h2 class="mb-5">What people are saying...</h2>
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="testimonial-item mx-auto mb-5 mb-lg-0"> <img class="img-fluid rounded-circle mb-3" src="testimonials-1.jpg" alt="">
-          <h5>Margaret E.</h5>
-          <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="testimonial-item mx-auto mb-5 mb-lg-0"> <img class="img-fluid rounded-circle mb-3" src="testimonials-2.jpg" alt="">
-          <h5>Fred S.</h5>
-          <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="testimonial-item mx-auto mb-5 mb-lg-0"> <img class="img-fluid rounded-circle mb-3" src="testimonials-3.jpg" alt="">
-          <h5>Sarah W.</h5>
-          <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Call to Action -->
-<section class="call-to-action text-white text-center">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-9 mx-auto">
-        <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-      </div>
-      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-        <form>
-          <div class="form-row">
-            <div class="col-12 col-md-9 mb-2 mb-md-0">
-              <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-            </div>
-            <div class="col-12 col-md-3">
-              <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-            </div>
+          <div class="project-img">
+            <img src="img/92955097_2592682704383295_4535044564708229120_o.jpg" alt="img">
           </div>
-        </form>
+        </div>
+        <div class="project-item">
+          <div class="project-img">
+            <img src="img/49517d145bdaa484fdcb7.jpg" alt="img">
+          </div>
+          <div class="project-img">
+            <img src="img/5eb6e7ffc1313e6f67208.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-img">
+            <img src="img/201907290309567901.jpg" alt="img">
+          </div>
+          <div class="project-img">
+            <img src="img/65c84d8f6b41941fcd506.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-img">
+            <img src="img/8b59df1ef9d0068e5fc110.jpg" alt="img">
+          </div>
+          <div class="project-img">
+            <img src="img/198f09cd2f03d05d89121.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-img" >
+            <img src="img/424d230f05c1fa9fa3d05.jpg" alt="img">
+          </div>
+          <div class="project-img">
+            <img src="img/eee816ac3062cf3c96734.jpg" alt="img">
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </section>
+  <!-- End Projects Section -->
 
-<!-- Footer -->
-<footer class="footer bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-        <ul class="list-inline mb-2">
-          <li class="list-inline-item"> <a href="#">About</a> </li>
-          <li class="list-inline-item">&sdot;</li>
-          <li class="list-inline-item"> <a href="#">Contact</a> </li>
-          <li class="list-inline-item">&sdot;</li>
-          <li class="list-inline-item"> <a href="#">Terms of Use</a> </li>
-          <li class="list-inline-item">&sdot;</li>
-          <li class="list-inline-item"> <a href="#">Privacy Policy</a> </li>
-        </ul>
-        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img/9873e106eac815964cd9.jpg" alt="img">
+        </div>
       </div>
-      <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-        <ul class="list-inline mb-0">
-          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i> </a></li>
-          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i> </a></li>
-          <li class="list-inline-item"> <a href="#"> <i class="fa fa-instagram fa-2x fa-fw" aria-hidden="true"></i> </a></li>
-        </ul>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Hello everyone,</h2>
+        <p>My name is Vy, I'm 19 years old. I'm studying graphic design in Arena Multimedia. Photography is my favorite hobby, and I love cat.I used to join Show It Now competition, I won the third and second prize for the most favorite composition.</p>
+        <a href="https://www.arena-multimedia.vn/content/khac-biet-trong-cach-chon-nganh-nghe-tuong-lai-cua-the-he-z.html?fbclid=IwAR2d-XBD0BCF1IYeZsJyjZK806Iu9z33wRGSG2CNkvbZJhX6D54-xGSWJZA"  target="_blank" type="button" class="cta">write about me</a>
       </div>
     </div>
-  </div>
-</footer>
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
+  </section>
+  <!-- End About Section -->
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>0389184520</h2>
+			</div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>nguyenngocvy442001@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Ho Chi Minh City</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-	<!-- Bootstrap core JavaScript --> 
-<script src="vendor/jquery/jquery.min.js"></script> 
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-  AOS.init();
-</script>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>N</span>gọc <span>V</span>y</h1></div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/nguyenngocvy442001" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Ngọc Vy. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+<script src="./app.js"></script>
 </body>
 </html>
