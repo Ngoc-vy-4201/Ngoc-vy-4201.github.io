@@ -600,7 +600,7 @@ p {
 	}
 	#about .col-right {
 		text-align: left;
-		padding: 30px;
+		padding: 10px;
 	}
 	#about .col-right h1 {
 		text-align: left;
@@ -608,7 +608,7 @@ p {
 
 	#contact .contact {
 		flex-direction: column;
-		padding: 100px 0;
+		padding: 10px 0;
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
@@ -637,11 +637,9 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
-}
-/* End Media Query For Tablet */
 
-/* Media Query For Desktop */
+}
+
 @media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
